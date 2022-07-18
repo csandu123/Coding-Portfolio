@@ -1,6 +1,6 @@
 h1 {
     font-size: 200%;
-    padding-top: 50px;
+    padding-top: 30px;
     color: rgb(158, 194, 194);
     padding-left: 30px;
     background-color: black;
@@ -33,7 +33,6 @@ li {
 
 li a {
     color: aliceblue;
-    background-color: black;
 }
 
 
@@ -42,6 +41,7 @@ li a {
     justify-content: flex-end;
 }
 
+/*Code taken from our first project for background image position and slightly altered*/
 .bg {
     height: 700px;
     width: 100%;
@@ -74,4 +74,70 @@ h2 {
 
 .work {
     padding-top: 75px;
+}
+
+.pictures {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 100px;
+    align-items: center;
+}
+
+.tech1 img {
+    display: inline;
+    height: 850px;
+    width: 1150px;
+}
+
+.tech2 img {
+    height: 350px;
+    width: 600px;
+}
+
+.tech3 img {
+    height: 350px;
+    width: 600px;
+}
+
+.tech4 img {
+    height: 350px;
+    width: 600px;
+}
+
+.tech5 img {
+    height: 350px;
+    width: 600px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tech1 img {
+        width:600px;
+        height: 350px;
+    }
+}
+
+.contact-me a {
+    float: right;
+}
+
+.tech1 img:hover {
+    cursor: pointer;
+}
+
+.tech2 img:hover {
+    cursor: pointer;
+}
+
+.tech3 img:hover {
+    cursor: pointer;
+}
+
+.tech4 img:hover {
+    cursor: pointer;
+}
+
+.tech5 img:hover {
+    cursor: pointer;
 }
