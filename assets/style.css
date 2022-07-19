@@ -26,12 +26,12 @@ nav ul {
 }
 
 
-li {
+nav li {
     display: inline-block;
     margin-left: 15px;
 }
 
-li a {
+nav li a {
     color: aliceblue;
 }
 
@@ -77,6 +77,8 @@ h2 {
 }
 
 .pictures {
+    margin-right: 300px;
+    margin-left: 250px;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
@@ -86,27 +88,31 @@ h2 {
 }
 
 .tech1 img {
-    display: inline;
+    opacity: .6;
     height: 850px;
     width: 1150px;
 }
 
 .tech2 img {
+    opacity: .6;
     height: 350px;
     width: 600px;
 }
 
 .tech3 img {
+    opacity: .6;
     height: 350px;
     width: 600px;
 }
 
 .tech4 img {
+    opacity: .6;
     height: 350px;
     width: 600px;
 }
 
 .tech5 img {
+    opacity: .6;
     height: 350px;
     width: 600px;
 }
@@ -118,26 +124,44 @@ h2 {
     }
 }
 
-.contact-me a {
-    float: right;
-}
 
 .tech1 img:hover {
+    opacity: 1;
     cursor: pointer;
 }
 
 .tech2 img:hover {
+    opacity: 1;
     cursor: pointer;
 }
 
 .tech3 img:hover {
+    opacity: 1;
     cursor: pointer;
 }
 
 .tech4 img:hover {
+    opacity: 1;
     cursor: pointer;
 }
 
 .tech5 img:hover {
+    opacity: 1;
     cursor: pointer;
 }
+
+
+.contact {
+    font-size: 140%;
+    color: rgb(158, 194, 194);
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.contact li {
+    display: inline-block;
+    padding: 10px 50px;
+    margin-right: 80px;
+}
+
+
