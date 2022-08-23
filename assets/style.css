@@ -88,6 +88,7 @@ h2 {
 }
 
 .tech1 img {
+
     opacity: .6;
     height: 850px;
     width: 1150px;
@@ -166,4 +167,9 @@ h2 {
     margin-right: 80px;
 }
 
+
+.tech1 img[data-title]:hover:after {
+  content: attr(data-title);
+ 
+}
 
